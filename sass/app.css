@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #313030;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+  line-height: 50%;
+}
+
+header .logo a {
+  color: inherit;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header .logo a span {
+  color: #e06767;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li.line {
+  width: 40px;
+  height: 4px;
+  background: white;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1400px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+
+.container img {
+  max-width: 400px;
+  height: 400px;
+}
+/*# sourceMappingURL=app.css.map */
