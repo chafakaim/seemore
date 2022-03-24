@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgb(49, 48, 48);
+    position: relative;
 }
 header{
     background-color: black;
@@ -49,7 +50,32 @@ header{
     padding: 20px;
 
     img{
-        max-width:400px;
+        width:clac(100% / 5);
         height: 400px;
+        cursor: pointer;
+    }
+}
+.box{
+    position: fixed;
+    width: 500Px;
+    height: 500px;
+    padding: 10px;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    img{
+        width: 100%;
+        animation: load 1s linear forwards;
+    }
+    @keyframes load {
+        0%{
+            transform: scale(1.2);
+        }
+        100%{
+            transform: scale(1);
+        }
+        
     }
 }
